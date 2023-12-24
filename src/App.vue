@@ -42,11 +42,7 @@ const MakeMove = (x, y) => {
   if (board.value[x][y] !== '') return
 
   moves.value++;
-
-  console.log(moves.value)
-
   board.value[x][y] = player.value
-
   player.value = player.value === 'X' ? 'O' : 'X'
 }
 
