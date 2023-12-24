@@ -60,7 +60,7 @@ const ResetGame = () => {
 </script>
 
 <template>
-  <main class="flex flex-col items-center justify-center p-8 text-center dark:bg-gray-800 min-h-screen dark:text-white">
+  <main class="flex flex-col items-center justify-center p-8 text-center bg-gray-800 min-h-screen text-white">
     <p class="text-xl mb-4">Player {{ player }}'s turn</p>
 
     <div class="flex flex-col items-center mb-8">
